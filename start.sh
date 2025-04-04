@@ -1,3 +1,4 @@
+# NOTE: by using a custom store, we need to cache some of the things ourselves
 podman run \
     --rm -it \
     --mount type=bind,source=./default.nix,target=/ngi-demo/default.nix \
